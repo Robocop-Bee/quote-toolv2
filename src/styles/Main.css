@@ -1,0 +1,93 @@
+.main-container {
+    width: 75vw;
+    height: 85vh;
+    border: none;
+    position: absolute;
+    left: 12.5%;
+    top: 7.5%;
+    overflow-y: scroll;
+    background-color: rgba(238,241,243,0.6);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+}
+
+.quote-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+
+.current-plan {
+    grid-column: 1/2;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.current-plan h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.add-input {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.current-plan button img {
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.new-plan {
+    grid-column: 2/2;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.new-plan h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.new-plan button img {
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.quote {
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 20px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    cursor: pointer;
+}

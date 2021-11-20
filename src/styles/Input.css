@@ -1,0 +1,42 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-name {
+    margin-right: 25px;
+    width: 149px;
+    height: 27px;
+    background-color: rgba(255, 255, 255, .6);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 16px 8px 27px -11px rgba(0,0,0,0.68);
+}
+
+.input-value {
+    width: 55px;
+    height: 27px;
+    background-color: rgba(255, 255, 255, .6);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 16px 8px 27px -11px rgba(0,0,0,0.68);
+}
+
+.remove-button {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 170px;
+    top: 7px;
+}
