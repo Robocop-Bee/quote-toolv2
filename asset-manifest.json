@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quote-toolv2/static/css/main.aa652a9b.chunk.css",
+    "main.js": "/quote-toolv2/static/js/main.3eafbb69.chunk.js",
+    "main.js.map": "/quote-toolv2/static/js/main.3eafbb69.chunk.js.map",
+    "runtime-main.js": "/quote-toolv2/static/js/runtime-main.438c1e81.js",
+    "runtime-main.js.map": "/quote-toolv2/static/js/runtime-main.438c1e81.js.map",
+    "static/js/2.023ec582.chunk.js": "/quote-toolv2/static/js/2.023ec582.chunk.js",
+    "static/js/2.023ec582.chunk.js.map": "/quote-toolv2/static/js/2.023ec582.chunk.js.map",
+    "index.html": "/quote-toolv2/index.html",
+    "static/css/main.aa652a9b.chunk.css.map": "/quote-toolv2/static/css/main.aa652a9b.chunk.css.map",
+    "static/js/2.023ec582.chunk.js.LICENSE.txt": "/quote-toolv2/static/js/2.023ec582.chunk.js.LICENSE.txt",
+    "static/media/minus-solid.4d0790fe.svg": "/quote-toolv2/static/media/minus-solid.4d0790fe.svg",
+    "static/media/plus-solid.c82024f4.svg": "/quote-toolv2/static/media/plus-solid.c82024f4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.438c1e81.js",
+    "static/js/2.023ec582.chunk.js",
+    "static/css/main.aa652a9b.chunk.css",
+    "static/js/main.3eafbb69.chunk.js"
+  ]
+}
