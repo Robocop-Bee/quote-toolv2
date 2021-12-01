@@ -1,0 +1,17 @@
+.new-plan {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.new-plan li {
+    font-size: 22px;
+}
+
+.new-plan span {
+    margin-left: 15px;
+}
+
+.new-plan h4 {
+    color: green;
+}

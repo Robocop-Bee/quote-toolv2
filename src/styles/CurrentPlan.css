@@ -1,0 +1,17 @@
+.current-plan {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.current-plan li {
+    font-size: 22px;
+}
+
+.current-plan span {
+    margin-left: 15px;
+}
+
+.current-plan h4 {
+    color: green;
+}

@@ -1,0 +1,21 @@
+.result-container {
+    height: 75vh;
+    width: 70vw;
+    overflow-y: scroll;
+    background-color: rgba(238,241,243,0.6);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.result-container::-webkit-scrollbar {
+    display: none;
+}
+
+.results {
+    text-align: center;
+    margin-top: 20px;
+}

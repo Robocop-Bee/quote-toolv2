@@ -1,10 +1,16 @@
 import './App.css'
-import Main from "./components/Main";
+import InputPage from './components/inputcomponent/InputPage';
+// import ResultPage from './components/resultscomponent/ResultPage';
+
+
+
+// Object properties will be {text, value, key} 2 objects for both current and new
 
 function App() {
   return (
     <div className="App">
-      <Main/>
+      <InputPage/>
+      {/* <ResultPage data={data}/> */}
     </div>
   );
 }
